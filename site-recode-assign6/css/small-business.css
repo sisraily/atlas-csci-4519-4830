@@ -4,5 +4,26 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  padding-top: 60px;
+}
+
+.nav-link {
+  font-size: 26px;
+  color:black;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin:auto;
 }

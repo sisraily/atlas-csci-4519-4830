@@ -8,66 +8,52 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Main Page</title>
+  <title>Main page | Access Higher Ground Conference</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/small-business.css" rel="stylesheet">
+  <link href="./css/small-business.css" rel="stylesheet">
 
 </head>
 
 <body>
-
+  <div>
+  <a href="#main" class="skip">Skip to main content</a>
+  </div>
   <!-- Navigation -->
-  <!-- nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" -->
-  <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">AHG</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <!-- ul class="navbar-nav ml-auto" -->
-         <div class="navbar-nav ml-auto">
-          <!-- li class="nav-item active" -->
-          <span class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </span>
-          <!-- li class="nav-item" -->
-          <span class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          <!-- /li -->
-          </span>
-          <!-- li class="nav-item" -->
-          <span class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          <!-- /li -->
-          </span>
-          <!-- li class="nav-item" -->
-          <span class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          <!-- /li -->
-          </span>
-        <!-- /ul -->
-        
-        </div>
-      </div>
-    
-  <!-- /nav -->
-  </div>
-  </div>
+  <header role=”banner”>  
+  <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">AHG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+    </div>
+  </nav>
+</header>
 
   <!-- Page Content -->
   <div class="container">
-
+    <main id="main" role="main">
     <!-- Heading Row -->
     <div class="row align-items-center my-5">
       <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="images/AHG Conference Logo (2019).jpg">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="images/AHG Conference Logo (2019).jpg" alt="Upcoming Conference. Accessing higher ground: acessible Media, Web & Technology. Date: Nov 18-22, 2019. Location: Westminister, Colorado. Presented by the Association on Higher Education And Disability in collaboration with Athen.">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-5">
@@ -80,20 +66,20 @@
           </ul>
         
         <p>&nbsp;</p>
-        <a class="btn btn-primary" href="#">Register</a>
+        <a class="btn btn-secondary btn-lg" href="#">Register for the annual conference</a>
       </div>
       <!-- /.col-md-4 -->
     </div>
     <!-- /.row -->
 
     <!-- Call to Action Well -->
-    <div class="card text-white bg-secondary my-5 py-4 text-center">
+    <aside class="card text-white bg-light my-5 py-4 text-center">
       <div class="card-body">
       <h2 style="float:left; font-size:1.25em;">Testimonials</h2>
         <p style="clear:left">&ldquo;A great conference for assistive  technology and web accessibility professionals in higher education.&rdquo; </p>
         <p>– Lisa  Marie Fiedor, Web Accessibility, Usability, &amp; Design Specialist, North  Carolina State University      </p>
       </div>
-    </div>
+    </aside>
 
     <!-- Content Row -->
     <div class="row">
@@ -101,11 +87,13 @@
         <div class="card h-100">
           <div class="card-body">
           <!-- was h2 -->
-            <h2 class="card-title"><strong>Annual Conference</strong></h2>
-            <p class="card-text">Attend over 120 sessions, including hands-on labs, on topics ranging from accessible PDFs to accessible teaching practices to legal and policy issues.</p>
+            <section>
+              <h2 class="card-title"><strong>Annual Conference</strong></h2>
+              <p class="card-text">Attend over 120 sessions, including hands-on labs, on topics ranging from accessible PDFs to accessible teaching practices to legal and policy issues.</p>
+            </section>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+            <a href="#" class="btn btn-secondary btn-md">More Info on the Annual Conference</a>
           </div>
         </div>
       </div>
@@ -113,11 +101,13 @@
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title"><strong>Video &amp; Audio</strong></h2>
-            <p class="card-text">Visit our video and audio library of past conference sessions.</p>
+            <section>
+              <h2 class="card-title"><strong>Video and Audio</strong></h2>
+              <p class="card-text">Visit our video and audio library of past conference sessions.</p>
+            </section>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+            <a href="#" class="btn btn-secondary btn-md">Recordings of past conferences</a>
           </div>
         </div>
       </div>
@@ -126,11 +116,13 @@
         <div class="card h-100">
           <div class="card-body">
           <!-- was h2 -->
-            <h2 class="card-title"><strong>Webinars</strong></h2>
-            <p class="card-text">AHG also conducts every other month webinars on web accessibility and curriculum accessibility topics.</p>
+            <section>
+              <h2 class="card-title"><strong>Webinars</strong></h2>
+              <p class="card-text">AHG also conducts every other month webinars on web accessibility and curriculum accessibility topics.</p>
+            </section>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">More Info</a>
+            <a href="#" class="btn btn-secondary btn-md">More Info on our Monthly Webinars</a>
           </div>
         </div>
       </div>
@@ -141,16 +133,13 @@
 
   </div>
   <!-- /.container -->
-
-  <!-- Footer -->
-  <!-- footer class="py-5 bg-dark"  -->
-  <div class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
-    <!-- /.container -->
-  <!-- /footer -->
-  <!-- /div -->
+</main>
+  <footer class="py-5 bg-dark" role="contentinfo">
+    <div class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      </div>
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
